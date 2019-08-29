@@ -36,6 +36,9 @@ body {
 ol, ul {
 	list-style: none;
 }
+.link{
+	font-size:40px;
+}
 
 blockquote, q {
 	quotes: none;
@@ -178,6 +181,7 @@ input, select, textarea {
 	}
 
 	p {
+		font-size: 20px;
 		margin: 0 0 2em 0;
 	
 
