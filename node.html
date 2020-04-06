@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="en">
-
+<style>
+    .blog-data{
+        font-size: 25px;
+        color: black;
+        
+     }
+    .heading-h2{
+        font-size: 40px;
+        font-weight: 100;
+    }
+    
+    </style>
   <head>
     <title>bilalrahim </title>
     <meta charset="utf-8">
@@ -59,7 +70,7 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li ><a href="index.html" class="nav-link">Home</a></li>
+                  <li><a href="index.html" class="nav-link">Home</a></li>
                   <li><a href="blog.html" class="nav-link">Blog</a></li>
                   <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
                   <li><a href="services.html" class="nav-link">Work</a></li>
@@ -79,7 +90,7 @@
       <div class="container">
         <div class="row align-items-center text-center justify-content-center">
           <div class="col-lg-7">
-            <h1 class="text-white mb-4">Natural Language Processing</h1>
+            <h1 class="text-white mb-4">Node.js</h1>
             <p class="lead">Year: 2020</p>
             
           </div>
@@ -90,7 +101,7 @@
     <div class="container-fluid portfolio-wrap bg-light pt-0 site-section">
       <div class="row justify-content-center">
         <div class="col-md-7">
-          <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+          <img src="images/node.png" alt="Image" class="img-fluid">
         </div>
       </div>
     </div>
@@ -99,30 +110,59 @@
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
-          <div class="col-md-6">
-            <p>Comming Soon.
-            </p>
-          </div>
-          <div class="col-md-5 ml-auto">
-            <p>
-              <strong class="font-weight-bold text-black">Project Name:</strong> <br>  </p>
-            <p>
-              <strong class="font-weight-bold text-black">Role:</strong> <br> 
-            </p>
-            <p>
-              <strong class="font-weight-bold text-black">Year:</strong> <br> In the making
-            </p>
-            <p>
-              <strong class="font-weight-bold text-black">Client:</strong> <br> Semester Project.
-            </p>
-          </div>
-        </div>
+          <div class="blog-data" >
+            <h1 style="text-align: center"class="heading-h2">What is Node.js and how to set it up?
+            </h1>
+								<p>
+                                    Node.js is an open-source, cross-platform, JavaScript runtime environment that 
+                                    executes JavaScript code outside of a web browser. Confusing? Let me put it into simple words, Node.js 
+                                    is used to run JavaScript outside the browser. 
+                                </p>
+								<h2 style="text-align: center;"class="heading-h2">How to set it up</h2>
+                                <p>
+                                    Having trouble understanding the Node.js? Don't be scared you will understand when you start using it.
+                                <h2 class="heading-h2">Pre-Requisites: </h2>
+                                <p>To use Node you must type command-line instructions, so you need to be comfortable with (or at least know how to start) a command-line tool like the
+                                    Windows Command Prompt, PowerShell, Cygwin, or the Git shell (which is installed along with Github for Windows).</p>
+                                
+                                <h2>Installation Steps:</h2>
+                                <h3>Step 1</h3>
+                                <p>Go to <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/ and download it. I would recommend .msi </a>
+								</p>
+                                    
+								<h3>Step 2</h3>
+                                <p>Once downloaded follow the simple steps to install it, the default settings would work just fine. </p>
+                                <h3>Step 3</h3>
+                                <p>Open command prompt in Windows.</p>
+                                <h3>Step 4</h3>
+                                <p>Make a new directory using command <code>mkdir name</code> go to it.</p>
+                                <h3>Step 5</h3>
+                                <p>Type command <code>npm init</code> Name it and default settings would work the rest. Node will setup your environment for you.</p>
+                                
+                                <h3>Step 6</h3>
+                                <p>Open your folder in your favorite editor, mine is VS code.</p>
+                                
+                                <h3>Step 7</h3>
+                                <p>To scripts and <b>"Start": "node index"</b></p>
+                                <h3>Step 8</h3>
+                                <p>Type some test code in your index.js file. 
+                                    Example <code>console.log("hello")</code></p>
+                            
+                                <h3>Last Step:</h2>
+                                <p>Type <code>node index</code> command on your command prompt.
+                                 Voila! you just ran your first JavaScript program outside the browser.
+                                </p>
+                                <br>
+                                <h3>Here is a simple JavaScript program you can use!</h3>
+                                <a href="https://github.com/bilalrahim/Court-Date"><span class="m-2 icon-github"></span>Source code available here!</a>
+          
+                                
+                </div>
+         </div>
       </div>
     </div>
 
-    
-
-      
+  
       <div class="footer site-section bg-light">
         <div class="container">
           <div class="row mb-4 text-center">
@@ -133,10 +173,9 @@
               <a href="https://twitter.com/BilalR11"><span style="font-size: 30px;" class="m-2 icon-twitter"></span></a>
             </div>
           </div>
-            </div>      
+       </div>      
     </div>
       </div>
-
     
 
     </div>
